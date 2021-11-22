@@ -1,0 +1,13 @@
+@use 'abstracts/variables';
+
+.decor {
+    color: variables.$accent-color;
+}
+
+.text--link {
+    color: variables.$accent-color;
+}
+.text--link:hover {
+    color: variables.$accent-color-dark;
+    text-decoration: none;
+}

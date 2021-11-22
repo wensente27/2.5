@@ -1,0 +1,107 @@
+@use 'base/typography';
+@use 'components/noise';
+@use 'components/divider';
+
+/* Hero */
+
+.header {
+    width: 100%;
+    height: 50em;
+}
+
+.header--content {
+    font-size: 4em;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.hero--content {
+    align-items: left;
+    justify-content: left;
+    width: 70%;
+    text-align: right;
+}
+
+.hero--content .coordinates {
+    font-family: 'GT America Mono'
+}
+
+.text--container--1 {
+    margin-right: 22%;    
+    margin-top: 20px;
+    padding-top: 20px;
+
+    h2 {
+        font-size: typography.$big;
+        letter-spacing: 0.2ch;
+        font-family: serif;
+    }
+
+}
+
+.text--container--2 {
+    width: 70%;
+    height: 110vh;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 65%;
+
+    h2 {
+        font-size: typography.$big;
+        letter-spacing: 0.1ch;
+        font-family: serif;
+    }
+
+    h3 {
+        font-family: serif;
+        font-size: typography.$normal + 1;
+        letter-spacing: 0.1ch;
+    }
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list .list--item {
+    h3 {
+        font-size: typography.$normal + .5;
+        font-family: 'GT America';
+        letter-spacing: 0ch;
+    }
+
+    p {
+        font-family: 'GT America Mono', monospace;
+    }
+}
+
+.suicide--bg img{
+    position: absolute;
+    top: 240%;
+    left: 25%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    width: 500px;
+    height: 600px;
+}
+
+/* Image */
+.img {
+    margin-left: 80%;
+    margin-top: -30%;
+    img {
+        border-radius: 15px;
+        object-position: 100% 0;
+        width: 400px;
+        height: 400px; 
+        object-fit: cover;
+    }
+}
+
+.yellow-rbn {
+    width: 10%;
+    margin-top: 20px;
+    display: inline;
+    float: right;
+}
